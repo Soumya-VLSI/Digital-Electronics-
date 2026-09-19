@@ -13,4 +13,13 @@ In negative logic, *LOW* voltage level represents *logic 1* state and correspond
 
 BASIC LOGIC GATES: 
 
-NOT GATE- 
+LOGIC GATE: A Logic Gate is a symbol which performs different logical operations. 
+
+NOT GATE- A *NOT GATE* is a logic gate that inverts the digital input signal . 
+It has only one input and produces it's complement.
+For this reason , a *NOT GATE* is sometimes referred as an inverter. 
+Expression - Y=A' 
+<img width="280" height="211" alt="image" src="https://github.com/user-attachments/assets/bbc67c05-1048-4f97-af4c-bc97a06589ea" />
+
+
+
