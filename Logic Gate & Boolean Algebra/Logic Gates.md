@@ -82,6 +82,9 @@ It is an AND gate followed by a NOT operation.
 |  1  |  0  |  1  |
 |  1  |  1  |  0  |
 
+NOR GATE- Nor Gates are gate that return false when all the inputs are true.
+NOR means NOT-OR.
+It is an OR gate followed by a NOT operation.
 
 
 
