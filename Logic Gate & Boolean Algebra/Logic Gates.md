@@ -37,11 +37,38 @@ The AND gate gives an output 1 only when all inputs are 1.
 
 <img width="343" height="199" alt="image" src="https://github.com/user-attachments/assets/da35b6de-dd24-4977-be2c-97c6c6f4e513" /> 
 
+*Truth Table For AND Gate*
+
 |   A   |   B   |  Y = A·B  |
 |   0   |   0   |    0      |
 |   0   |   1   |    0      |
 |   1   |   0   |    0      |
 |   1   |   1   |    1      |
+
+OR GATE- An OR Gate is a logic gate having two or more inputs and a single output. 
+An OR Gate operates on logical addition rules.
+The OR gate gives an output 1 when at least one input is 1.
+
+**Expression- Y = A + B**
+
+<img width="377" height="173" alt="image" src="https://github.com/user-attachments/assets/ddfa99ff-1a1c-47b6-93d5-b7a55864fd12" />
+
+*Truth Table For OR Gate*
+
+|  A  |  B  |  Y = A+B  |
+|  0  |  0  |     0     |
+|  0  |  1  |     1     |
+|  1  |  0  |     1     |
+|  1  |  1  |     1     |
+
+**UNIVERSAL LOGIC GATES**
+
+A universal gate is a logic gate which can implement any Boolean function without the need to use any other type of logic gate. 
+The *NAND* and *NOR* are universal logic gate.
+
+NAND GATE-
+
+
 
 
 
