@@ -66,7 +66,24 @@ The OR gate gives an output 1 when at least one input is 1.
 A universal gate is a logic gate which can implement any Boolean function without the need to use any other type of logic gate. 
 The *NAND* and *NOR* are universal logic gate.
 
-NAND GATE-
+NAND GATE- Nand Gates are gate that return false when all the inputs are true.
+NAND means NOT-AND.
+It is an AND gate followed by a NOT operation.
+
+**Expression- Y = (A · B)'**
+
+<img width="334" height="150" alt="image" src="https://github.com/user-attachments/assets/16be4ae5-2352-49b2-9e5a-4595478ef760" />
+
+*Truth Table For NAND Gate*
+
+|  A  |  B  |  Y  |
+|  0  |  0  |  1  |
+|  0  |  1  |  1  |
+|  1  |  0  |  1  |
+|  1  |  1  |  0  |
+
+
+
 
 
 
