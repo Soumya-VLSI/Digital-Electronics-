@@ -86,6 +86,18 @@ NOR GATE- Nor Gates are gate that return false when all the inputs are true.
 NOR means NOT-OR.
 It is an OR gate followed by a NOT operation.
 
+**Expression- Y = (A + B)'**
+
+<img width="277" height="159" alt="image" src="https://github.com/user-attachments/assets/66004271-afb7-41fa-a8ad-f50f810deb0c" />
+
+*Truth Table For NOR Gate*
+
+|  A  |  B  |  Y  |
+|  0  |  0  |  1  |
+|  0  |  1  |  0  |
+|  1  |  0  |  0  |
+|  1  |  1  |  0  |
+
 
 
 
