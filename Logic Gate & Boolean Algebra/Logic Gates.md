@@ -29,6 +29,10 @@ For this reason , a *NOT GATE* is sometimes referred as an inverter.
 |  0   |    1    |
 |  1   |    0    |
 
+**Application** 
+Schmitt Inverters
+Square Wave Oscillators
+
 AND GATE- A *AND GATE* is a logic gate having two or more inputs and a single output . 
 An AND Gate operates on logic multiplication rules. 
 The AND gate gives an output 1 only when all inputs are 1.
@@ -45,6 +49,10 @@ The AND gate gives an output 1 only when all inputs are 1.
 |   1   |   0   |    0      |
 |   1   |   1   |    1      |
 
+**Application**
+Enable Circuitry 
+Multiplier 
+
 OR GATE- An OR Gate is a logic gate having two or more inputs and a single output. 
 An OR Gate operates on logical addition rules.
 The OR gate gives an output 1 when at least one input is 1.
@@ -60,6 +68,9 @@ The OR gate gives an output 1 when at least one input is 1.
 |  0  |  1  |     1     |
 |  1  |  0  |     1     |
 |  1  |  1  |     1     |
+
+**Application**
+Alarm System 
 
 **UNIVERSAL LOGIC GATES**
 
@@ -82,6 +93,9 @@ It is an AND gate followed by a NOT operation.
 |  1  |  0  |  1  |
 |  1  |  1  |  0  |
 
+**Application**
+Burglar Alarm 
+
 NOR GATE- Nor Gates are gate that return false when all the inputs are true.
 NOR means NOT-OR.
 It is an OR gate followed by a NOT operation.
@@ -97,6 +111,11 @@ It is an OR gate followed by a NOT operation.
 |  0  |  1  |  0  |
 |  1  |  0  |  0  |
 |  1  |  1  |  0  |
+
+**Application**
+Multipliers 
+Half Adders and Full adders
+Ripple Carry Adders 
 
 **EXTENDED LOGIC GATE**
 
@@ -120,6 +139,12 @@ Equivalent Expression- Y = A'B + AB'
 |  1  |  0  |      1     |
 |  1  |  1  |      0     |
 
+**Application**
+Addition/Subtraction
+Controlled Inverter 
+Parity Generator/Checker 
+Check Inequality 
+
 XOR gate produces output 1 only when inputs are not equal , it is called an anti-coincidence logic or inequality logic, also know as Odd 1’s detector.
 XOR gate as an inverter- An XOR gate can be used as inverter by connecting one of two input terminal to logic 1 and feeding the input sequence to be inverted to the other terminal.   
 XOR gate as a Buffer- An XOR gate can be used as inverter by connecting one of two input terminal to logic 0 and feeding the input sequence to be inverted to the other terminal.  
@@ -129,10 +154,39 @@ A xor 0=A
 A xor A'=1   
 A xor 1=A'   
 
-XNOR GATE- The XNOR Gate takes two boolean operands 
+XNOR GATE- The XNOR Gate takes two boolean operands and returns true if they are same .
+This is even Zero's Detector. 
+XNOR stands for Exclusive-NOR.
+The XNOR gate produces output 1 when the inputs are the same.
+It is the complement of XOR.
 
+**Expression**
+Boolean Expression- Y = (A ⊕ B)'
+Equivalent Expression- Y = AB + A'B'
 
+<img width="253" height="77" alt="image" src="https://github.com/user-attachments/assets/73c96cde-6d0a-4dd9-8a55-278504a4a72b" />
 
+*Truth Table For XNOR Gate*
+
+|  A  |  B  |  Y  |
+|  0  |  0  |  1  |
+|  0  |  1  |  0  |
+|  1  |  0  |  0  |
+|  1  |  1  |  1  |
+
+**Application**
+Check Equality
+
+Properties of XNOR Gate 
+XNOR Gate is known as Equality detector.   
+XNOR gate as an inverter- An XNOR gate can be used as inverter by connecting one of the two input terminal to logic 0 and feeding the input sequence to be inverted to the other terminal.   
+XNOR gate as an Buffer- An XNOR gate can be used as buffer by connecting one of two input terminal to logic 1 and feeding the input sequence to be inverted to the other terminal.
+A xnor A=1   
+A xnor A'=0   
+A xnor 0=A'   
+A xnor 1=A  
+Note: If number of input are even output will be 1   
+      If numbr of inputs are odd output will be A   
 
 
 
