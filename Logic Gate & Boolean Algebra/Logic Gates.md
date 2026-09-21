@@ -21,7 +21,7 @@ For this reason , a *NOT GATE* is sometimes referred as an inverter.
 
 **Expression - Y = A'** 
 
-<img width="280" height="211" alt="image" src="https://github.com/user-attachments/assets/bbc67c05-1048-4f97-af4c-bc97a06589ea" />
+<img width="166" height="80" alt="image" src="https://github.com/user-attachments/assets/a323ef5f-7310-47af-a5ff-60db0a64c6cf" />
 
 *Truth Table For NOT GATE*
 
@@ -39,7 +39,7 @@ The AND gate gives an output 1 only when all inputs are 1.
 
 **Expression- Y = A.B** 
 
-<img width="343" height="199" alt="image" src="https://github.com/user-attachments/assets/da35b6de-dd24-4977-be2c-97c6c6f4e513" /> 
+<img width="180" height="82" alt="image" src="https://github.com/user-attachments/assets/1decee7a-556b-45e5-9fc4-7c818de91661" />
 
 *Truth Table For AND Gate*
 
@@ -59,7 +59,7 @@ The OR gate gives an output 1 when at least one input is 1.
 
 **Expression- Y = A + B**
 
-<img width="377" height="173" alt="image" src="https://github.com/user-attachments/assets/ddfa99ff-1a1c-47b6-93d5-b7a55864fd12" />
+<img width="178" height="79" alt="image" src="https://github.com/user-attachments/assets/fd181ae7-4c16-4129-b842-e73cd309ac04" />
 
 *Truth Table For OR Gate*
 
@@ -83,7 +83,7 @@ It is an AND gate followed by a NOT operation.
 
 **Expression- Y = (A · B)'**
 
-<img width="334" height="150" alt="image" src="https://github.com/user-attachments/assets/16be4ae5-2352-49b2-9e5a-4595478ef760" />
+<img width="166" height="82" alt="image" src="https://github.com/user-attachments/assets/5b8c40cb-342c-4da9-91cf-83f541ddaf50" />
 
 *Truth Table For NAND Gate*
 
@@ -102,7 +102,7 @@ It is an OR gate followed by a NOT operation.
 
 **Expression- Y = (A + B)'**
 
-<img width="277" height="159" alt="image" src="https://github.com/user-attachments/assets/66004271-afb7-41fa-a8ad-f50f810deb0c" />
+<img width="219" height="78" alt="image" src="https://github.com/user-attachments/assets/61081504-51ec-456d-867b-97a9214a8f6e" />
 
 *Truth Table For NOR Gate*
 
