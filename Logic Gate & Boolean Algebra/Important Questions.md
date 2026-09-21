@@ -15,14 +15,14 @@ Ques 3. Design 3 Input XOR using 2 Input XNOR Gate.
 
 Ques 4. Design 3 Input XNOR using 2 Input XNOR Gate.
 
-Ques 5. 
+Ques 5. Design 3 Input NAND using 2 Input NAND Gate.
 
-Ques 3. 3 Input AND Gate using 2 Input AND Gate 
+Ques 6. 3 Input AND Gate using 2 Input AND Gate 
 
-Ques 4. 3 Input XNOR Gate using 2 Input XNOR Gate. 
+Ques 7. 3 Input XNOR Gate using 2 Input XNOR Gate. 
 
-Ques 5. 3 Input Binary to Gray and Gray to Binary. 
+Ques 8. 3 Input Binary to Gray and Gray to Binary. 
 
-Ques 6. 5-Bit Palindrome Checker Circuit 
+Ques 9. 5-Bit Palindrome Checker Circuit 
 
 *If output is 1 then it is Palindrome, If it is 0 then it is not Palindrome*
