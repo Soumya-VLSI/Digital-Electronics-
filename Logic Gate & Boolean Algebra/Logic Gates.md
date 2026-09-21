@@ -98,6 +98,38 @@ It is an OR gate followed by a NOT operation.
 |  1  |  0  |  0  |
 |  1  |  1  |  0  |
 
+**EXTENDED LOGIC GATE**
+
+Extended Gates are the logical gates that has the combination of some AND,OR or NOT Gate. 
+
+XOR GATE- The XOR takes two boolean operands and returns true of they are different. 
+XOR stands for Exclusive-OR.
+The XOR gate produces output 1 when the inputs are different.
+
+**Expression**
+Boolean Expression - Y = A ⊕ B
+Equivalent Expression- Y = A'B + AB'
+
+<img width="244" height="79" alt="image" src="https://github.com/user-attachments/assets/a8982d75-f51c-4b42-b97d-045eac16d1ed" />
+
+*Truth Table For XOR Gate*
+
+|  A  |  B  |  Y = A⊕B  |
+|  0  |  0  |      0     |
+|  0  |  1  |      1     |
+|  1  |  0  |      1     |
+|  1  |  1  |      0     |
+
+XOR gate produces output 1 only when inputs are not equal , it is called an anti-coincidence logic or inequality logic, also know as Odd 1’s detector.
+XOR gate as an inverter- An XOR gate can be used as inverter by connecting one of two input terminal to logic 1 and feeding the input sequence to be inverted to the other terminal.   
+XOR gate as a Buffer- An XOR gate can be used as inverter by connecting one of two input terminal to logic 0 and feeding the input sequence to be inverted to the other terminal.  
+
+A xor A=0   
+A xor 0=A   
+A xor A'=1   
+A xor 1=A'   
+
+XNOR GATE- The XNOR Gate takes two boolean operands 
 
 
 
