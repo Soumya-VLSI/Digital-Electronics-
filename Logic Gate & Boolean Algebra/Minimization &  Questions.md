@@ -22,3 +22,13 @@ Karnaugh Map (K-Map)
 Quine-McCluskey Method
 
 For basic digital circuit design, Boolean Algebra and K-Maps are commonly used.
+
+**IMPORTANT QUESTIONS**
+
+Ques1. A'B + AB + A'B' + BC 
+Sol 1. B ( A'+ A) + A'B' + BC 
+       B + (A'B') + BC 
+       B + BC + A'B' 
+       B ( 1 + C) + A'B' 
+       B + (A'B' ) 
+       B + A'
