@@ -26,22 +26,22 @@ F = ΠM(...)
 
 **RULES FOR K-MAP**
 
--Group should only include cells containing ones in case of SOP.
--Group should only include cells containing zeros in case of POS.
--Groups should be only horizontal or vertical.
--Groups must contain 2ⁿ cells. 
--Each group should be as large as possible.
--Each cell containing one/zero(SOP/POS) must be in at least one group.
--Overlapping of groups is allowed.
--Groups can wrap around table. 
--K-Map cells should be arranged in Gray Code order.
--Adjacent cells must differ in only one variable.
--Diagonal cells are not considered adjacent.
--Groups must form rectangular shapes.
--Don't-care conditions can be used for simplification.
--Don't-care cells need not be included in a group.
--Variables that change within a group are eliminated.
--Variables that remain constant determine the simplified term.
--Larger groups eliminate more variables.
--SOP groups produce product terms that are ORed together.
--POS groups produce sum terms that are ANDed together.
+* Group should only include cells containing ones in case of SOP.
+* Group should only include cells containing zeros in case of POS.
+* Groups should be only horizontal or vertical.
+* Groups must contain 2ⁿ cells.
+* Each group should be as large as possible.
+* Each cell containing one/zero(SOP/POS) must be in at least one group.
+* Overlapping of groups is allowed.
+* Groups can wrap around table.
+* K-Map cells should be arranged in Gray Code order.
+* Adjacent cells must differ in only one variable.
+* Diagonal cells are not considered adjacent.
+* Groups must form rectangular shapes.
+* Don't-care conditions can be used for simplification.
+* Don't-care cells need not be included in a group.
+* Variables that change within a group are eliminated.
+* Variables that remain constant determine the simplified term.
+* Larger groups eliminate more variables.
+* SOP groups produce product terms that are ORed together.
+* POS groups produce sum terms that are ANDed together.
