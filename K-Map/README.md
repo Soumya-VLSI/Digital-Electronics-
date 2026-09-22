@@ -1,63 +1,46 @@
 **K-MAP (KARNAUGH MAP)**
+Karnaugh Map (K-Map) is a graphical method used to simplify Boolean expressions and minimize combinational logic circuits.
 
-**Introduction**
+What is K-Map?
+A K-Map converts a Boolean function into a graphical matrix format, making it easier to identify groups of adjacent cells and obtain a simplified Boolean expression.
 
-- Karnaugh Map (K-Map) is a graphical method used for simplifying Boolean expressions.
-- K-Map converts a truth table into a matrix-like structure and allows grouping of adjacent cells to   obtain a minimal Boolean expression.
-- K-Map minimization can be performed in two forms:
-- Sum of Products (SOP)
-- Product of Sums (POS)
+K-Maps are commonly used for Boolean functions with **2, 3, 4, and 5 variables**.
 
-SOP and POS in K-Map
-
+Types of K-Map Minimization
 Sum of Products (SOP)
-- In SOP, we consider the input combinations for which the output is HIGH (1).
-- Therefore, we group cells containing `1`s.
-- SOP is also called **minterm minimization**.
-- SOP is represented using the notation:
-F = Σm(...)
+- Based on **minterms**
+- Groups cells containing `1'
+- Notation: `Σm'
 
 Product of Sums (POS)
-*In POS, we consider the input combinations for which the output is LOW (0).
-*Therefore, we group cells containing 0s.
-*POS is also called maxterm minimization.
-*POS is represented using the notation:
-F = ΠM(...)
+- Based on **maxterms**
+- Groups cells containing `0'
+- Notation: `ΠM'
 
-**RULES FOR K-MAP**
+K-Map Structure
+The number of cells in a K-Map depends on the number of variables:
+`Number of cells = 2ⁿ'
 
-* Group should only include cells containing ones in case of SOP.
-* Group should only include cells containing zeros in case of POS.
-* Groups should be only horizontal or vertical.
-* Groups must contain 2ⁿ cells.
-* Each group should be as large as possible.
-* Each cell containing one/zero(SOP/POS) must be in at least one group.
-* Overlapping of groups is allowed.
-* Groups can wrap around table.
-* K-Map cells should be arranged in Gray Code order.
-* Adjacent cells must differ in only one variable.
-* Diagonal cells are not considered adjacent.
-* Groups must form rectangular shapes.
-* Don't-care conditions can be used for simplification.
-* Don't-care cells need not be included in a group.
-* Variables that change within a group are eliminated.
-* Variables that remain constant determine the simplified term.
-* Larger groups eliminate more variables.
-* SOP groups produce product terms that are ORed together.
-* POS groups produce sum terms that are ANDed together.
+| Variables | Cells |
+|     2     |   4   |
+|     3     |   8   |
+|     4     |   16  |
+|     5     |   32  |
 
-**2 VARIABLE K-MAP**
+K-Map rows and columns are arranged using **Gray Code**:
 
-Truth Table
+`00 → 01 → 11 → 10'
 
-|  A  |  B  |  Minterm  |
-|  0  |  0  | A'B' (m0) |
-|  0  |  1  |  A'B (m1) |
-|  1  |  0  |  AB' (m2) |
-|  1  |  1  |   AB (m3) |
+This ensures that adjacent cells differ in only one variable.
 
-<img width="521" height="209" alt="image" src="https://github.com/user-attachments/assets/8d4b10bc-41f1-496c-95b1-50ba9a0ce059" />
+Variable Elimination
 
+The main purpose of grouping cells is to eliminate variables and obtain a simpler Boolean expression.
 
-
-
+Larger Group
+     ↓
+More Variables Eliminated
+     ↓
+Simpler Boolean Expression
+     ↓
+Reduced Logic Gates
