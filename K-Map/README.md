@@ -45,3 +45,19 @@ F = ΠM(...)
 * Larger groups eliminate more variables.
 * SOP groups produce product terms that are ORed together.
 * POS groups produce sum terms that are ANDed together.
+
+**2 VARIABLE K-MAP**
+
+Truth Table
+
+|  A  |  B  |  Minterm  |
+|  0  |  0  | A'B' (m0) |
+|  0  |  1  |  A'B (m1) |
+|  1  |  0  |  AB' (m2) |
+|  1  |  1  |   AB (m3) |
+
+<img width="521" height="209" alt="image" src="https://github.com/user-attachments/assets/8d4b10bc-41f1-496c-95b1-50ba9a0ce059" />
+
+
+
+
