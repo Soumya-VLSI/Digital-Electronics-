@@ -18,10 +18,10 @@ Sum of Products (SOP)
 F = Σm(...)
 
 Product of Sums (POS)
--In POS, we consider the input combinations for which the output is LOW (0).
--Therefore, we group cells containing 0s.
--POS is also called maxterm minimization.
--POS is represented using the notation:
+*In POS, we consider the input combinations for which the output is LOW (0).
+*Therefore, we group cells containing 0s.
+*POS is also called maxterm minimization.
+*POS is represented using the notation:
 F = ΠM(...)
 
 **RULES FOR K-MAP**
