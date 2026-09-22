@@ -46,3 +46,15 @@ Sol 3. 4 variables
 
 Ques4. F(A,B,C) =F(A',B' ,C')'
 Sol 4. This is called self dual 
+
+Ques5. F = A ⊕ B ⊕ C ⊕ D
+Sol 5. XOR for odd number of 1's =1 
+       F = A ⊕ B ⊕ C ⊕ D =1 
+
+Ques6. (A+B+C') (A+B'+C) (A'+B+C) 
+Sol 6. ( 001) (101) (011) 
+           (1,2,4)
+         (0,3,5,6,7) 
+         Therefore the number of literals in (A+B+C') (A+B'+C) (A'+B+C) is 5.
+
+
