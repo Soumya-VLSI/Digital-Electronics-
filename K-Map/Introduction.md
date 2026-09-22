@@ -46,6 +46,20 @@ F = ΠM(...)
 * SOP groups produce product terms that are ORed together.
 * POS groups produce sum terms that are ANDed together.
 
+**K-MAP SIMPLIFICATION STEPS**
+1) Write the Boolean function.
+2) Determine whether SOP or POS minimization is required.
+3) Draw the appropriate K-Map.
+4) Arrange the variables using Gray Code.
+5) Place 1s for SOP or 0s for POS.
+6) Identify adjacent cells.
+7) Form the largest possible groups.
+8) Use overlapping or wrapping when required.
+9) Ensure every required cell is covered.
+10) Identify variables that remain constant.
+11) Eliminate variables that change.
+12) Write the simplified Boolean expression.
+
 **2 VARIABLE K-MAP**
 
 Truth Table
