@@ -32,3 +32,17 @@ Sol 1. B ( A'+ A) + A'B' + BC
        B ( 1 + C) + A'B' 
        B + (A'B' ) 
        B + A'
+
+Ques2. F=0 (when input equal)
+       F=1 (when input different)
+       ABC + A'BC' is high for all combinations except all input equals. 
+
+Ques3. No of Self Dual Boolean functions of 4 variable ?
+Sol 3. 4 variables 
+       2^4 =16 
+       F(A,B,C,D)=F(A',B'C',D')'
+       16 input combinations form 8 pairs.
+       Formula: 2^2^(n-1) = 2^3 = 8 
+
+Ques4. F(A,B,C) =F(A',B' ,C')'
+Sol 4. This is called self dual 
