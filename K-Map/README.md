@@ -44,3 +44,11 @@ More Variables Eliminated
 Simpler Boolean Expression
      ↓
 Reduced Logic Gates
+
+**APPLICATION**
+K-Maps are used for:
+*Boolean expression simplification
+*Combinational circuit design
+*Logic gate minimization
+*Digital circuit optimization
+*Reducing hardware complexity
