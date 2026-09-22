@@ -72,7 +72,43 @@ Truth Table
 
 <img width="521" height="209" alt="image" src="https://github.com/user-attachments/assets/8d4b10bc-41f1-496c-95b1-50ba9a0ce059" />
 
+**3 VARIABLE K-MAP**
 
+Truth Table
 
+A | B | C | Min Term
+0 | 0 | 0 | A'B'C' (m0)
+0 | 0 | 1 | A'B'C (m1)
+0 | 1 | 0 | A'BC' (m2)
+0 | 1 | 1 | A'BC (m3)
+1 | 0 | 0 | AB'C' (m4)
+1 | 0 | 1 | AB'C (m5)
+1 | 1 | 0 | ABC' (m6)
+1 | 1 | 1 | ABC (m7)
 
+<img width="541" height="286" alt="image" src="https://github.com/user-attachments/assets/1efed494-3221-46a0-889f-673a655c8045" />
+
+**4 VARIABLE K-MAP**
+
+Truth Table 
+
+A | B | C | D |    Min Term   |
+0 | 0 | 0 | 0 |  A'B'C'D' (m0)|
+0 | 0 | 0 | 1 |  A'B'C'D (m1) | 
+0 | 0 | 1 | 0 |  A'B'CD' (m2) |
+0 | 0 | 1 | 1 |  A'B'CD (m3)  |
+0 | 1 | 0 | 0 |  A'BC'D' (m4) |
+0 | 1 | 0 | 1 |  A'BC'D (m5)  | 
+0 | 1 | 1 | 0 |  A'BCD' (m6)  |
+0 | 1 | 1 | 1 |  A'BCD (m7)   |
+1 | 0 | 0 | 0 |  AB'C'D' (m8) |
+1 | 0 | 0 | 1 |  AB'C'D (m9)  |
+1 | 0 | 1 | 0 |  AB'CD' (m10) |
+1 | 0 | 1 | 1 |  AB'CD (m11)  |
+1 | 1 | 0 | 0 |  ABC'D' (m12) |
+1 | 1 | 0 | 1 |  ABC'D (m13)  |
+1 | 1 | 1 | 0 |  ABCD' (m14)  |
+1 | 1 | 1 | 1 |  ABCD (m15)   |
+
+https://www.geeksforgeeks.org/what-is-minterm/<img width="541" height="286" alt="image" src="https://github.com/user-attachments/assets/909e7f93-d8a5-4201-adc6-b97e560123b1" />
 
