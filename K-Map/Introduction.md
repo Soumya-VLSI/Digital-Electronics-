@@ -60,6 +60,14 @@ F = ΠM(...)
 11) Eliminate variables that change.
 12) Write the simplified Boolean expression.
 
+**K-MAP GRAPHICAL METHOD**
+To minimise the cicruit 
+n= no. of variables 
+2^n= no. of box k-map must have 
+n = 2 = 4box
+n = 3 = 8box
+n = 4 = 16box
+
 **2 VARIABLE K-MAP**
 
 Truth Table
@@ -111,4 +119,9 @@ A | B | C | D |    Min Term   |
 1 | 1 | 1 | 1 |  ABCD (m15)   |
 
 https://www.geeksforgeeks.org/what-is-minterm/<img width="541" height="286" alt="image" src="https://github.com/user-attachments/assets/909e7f93-d8a5-4201-adc6-b97e560123b1" />
+
+**Note-**If all values are 1 then it is logic 1 
+If 1 is found in two or more groups then it is said to be the redundant block with the help of redundancy theorem. 
+
+For POS we consider the 0 and we write 0 at place of 1.
 
