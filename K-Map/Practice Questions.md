@@ -1,11 +1,9 @@
-Quine–McCluskey (QM) / Tabular Method
-1. Introduction
+**Quine–McCluskey (QM) / Tabular Method**
+
+Introduction
 
 The Quine–McCluskey (QM) method, also called the Tabular Method, is a systematic method for minimizing Boolean expressions.
-
 It is especially useful when the number of variables becomes too large for a K-Map.
-
-Main idea
 
 The QM method minimizes a Boolean function by:
 
@@ -15,25 +13,20 @@ Combining terms that differ in only one bit
 Finding Prime Implicants
 Using a Prime Implicant Chart
 Selecting the required implicants to obtain the minimized expression
-2. Why QM Method is Used
 
+Why QM Method is Used
 K-Maps are convenient for a small number of variables, but become difficult as the number of variables increases.
-
 The QM method provides a systematic and tabular procedure.
-
-Advantages
+Advantages: 
 Systematic method
 Suitable for computer implementation
 Useful for larger Boolean functions
 Does not depend on drawing K-Maps
 Gives a structured minimization procedure
-3. Important Terms
 
 Before using the QM method, understand these terms.
 
-Minterm
-
-A minterm is a product term containing all variables.
+Minterm- A minterm is a product term containing all variables.
 
 Example:
 
