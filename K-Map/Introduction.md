@@ -133,10 +133,14 @@ For POS we consider the 0 and we write 0 at place of 1.
 Don't-care conditions are used during K-Map minimization to obtain a simpler Boolean expression.
 
 **Why Do Don't-Care Conditions Occur?**
--Don't-care conditions commonly occur when:
+-Don't-care conditions commonly occur when: 
+
 -Some input combinations are invalid.
+
 -Some input combinations never occur in normal operation.
+
 -Certain input combinations are unused.
+
 -The output is irrelevant for particular input combinations.
 
 Representation of Don't-Care Conditions
