@@ -1,7 +1,5 @@
 **Quine–McCluskey (QM) / Tabular Method**
 
-Introduction
-
 The Quine–McCluskey (QM) method, also called the Tabular Method, is a systematic method for minimizing Boolean expressions.
 It is especially useful when the number of variables becomes too large for a K-Map.
 
