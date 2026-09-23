@@ -221,25 +221,16 @@ Cannot combine
 110
 
 because they differ in three positions.
-
-13. Prime Implicants
-
+Prime Implicants
 After repeatedly combining terms, some terms cannot be combined any further.
-
-These are called:
-
-Prime Implicants (PIs)
+These are called: Prime Implicants (PIs)
 
 Important point
-
 Every term that cannot be combined further becomes a candidate prime implicant.
 
-14. Prime Implicant Chart
-
+Prime Implicant Chart
 After finding all prime implicants, we construct a Prime Implicant Chart.
-
 The chart shows:
-
 Rows → Prime implicants
 Columns → Minterms
 X → Prime implicant covers that minterm
@@ -250,8 +241,8 @@ Prime Implicant	m1	m3	m5	m7
 P1	X	X		
 P2		X		X
 P3			X	X
-15. Finding Essential Prime Implicants
 
+Finding Essential Prime Implicants
 Look at each minterm column.
 
 If a minterm is covered by only one prime implicant, that prime implicant is essential.
@@ -270,13 +261,11 @@ m1 → only P1
 m5 → only P2
 
 Therefore:
-
 P1 → Essential Prime Implicant
 P2 → Essential Prime Implicant
-16. Don't-Care Conditions in QM Method
 
+**Don't-Care Conditions in QM Method**
 QM can also handle don't-care conditions.
-
 They are written as:
 
 F = Σm(1,3,7) + d(5,6)
@@ -293,7 +282,7 @@ However, don't-care terms do not need to be covered in the final Prime Implicant
 
 Only the required minterms need to be covered.
 
-17. QM Method with Don't-Cares
+QM Method with Don't-Cares
 
 The procedure is:
 
