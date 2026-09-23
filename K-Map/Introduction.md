@@ -126,28 +126,26 @@ If 1 is found in two or more groups then it is said to be the redundant block wi
 For POS we consider the 0 and we write 0 at place of 1.
 
 **K-MAP DON'T CARE**
-In some digital circuits, certain input combinations never occur or the output for those combinations does not matter.
-Such input combinations are called Don't-Care conditions.
-They are represented by: X or d
+-In some digital circuits, certain input combinations never occur or the output for those combinations does not matter.
+-Such input combinations are called Don't-Care conditions.
+-They are represented by: X or d
 
 Don't-care conditions are used during K-Map minimization to obtain a simpler Boolean expression.
 
 **Why Do Don't-Care Conditions Occur?**
-Don't-care conditions commonly occur when:
-Some input combinations are invalid.
-Some input combinations never occur in normal operation.
-Certain input combinations are unused.
-The output is irrelevant for particular input combinations.
+-Don't-care conditions commonly occur when:
+-Some input combinations are invalid.
+-Some input combinations never occur in normal operation.
+-Certain input combinations are unused.
+-The output is irrelevant for particular input combinations.
 
 Representation of Don't-Care Conditions
-Don't-care conditions are usually represented using:
-X or using minterm notation:
-d(...)
+-Don't-care conditions are usually represented using:
+-X or using minterm notation: d(...)
+
 Example
 Y = Σm(1,3,7) + d(5,6)
-
 Here:
-
 Σm(1,3,7) → Required 1s
 d(5,6)    → Don't-care conditions
 
@@ -168,16 +166,16 @@ The X cells can be used to create larger groups if they help simplify the expres
 
 **Most Important Rule**
 
-A don't-care can be treated as either:
-1 or 0 depending on which choice gives a simpler Boolean expression.
-Therefore:
-Don't-care = 1 → if it helps grouping
-Don't-care = 0 → if it does not help grouping
+-A don't-care can be treated as either:
+-1 or 0 depending on which choice gives a simpler Boolean expression.
+-Therefore:
+-Don't-care = 1 → if it helps grouping
+-Don't-care = 0 → if it does not help grouping
 
 **Don't-Care in SOP Minimization**
-For SOP minimization:
-Group 1s
-Don't-care X cells may be included in the group.
+-For SOP minimization:
+-Group 1s
+-Don't-care X cells may be included in the group.
 
 Example
 Y = Σm(1,3,7) + d(5)
@@ -185,33 +183,33 @@ The X at minterm 5 can be included if it helps create a larger group.
 The goal is to obtain the simplest SOP expression.
 
 **Don't-Care in POS Minimization**
-For POS minimization:
-Group 0s
-Don't-care X cells may be treated as 0 when doing so helps create a larger group.
-Remember : 
-Minimization	Group	Don't-care
-SOP	1s	Can be treated as 1
-POS	0s	Can be treated as 0
+-For POS minimization:
+-Group 0s
+-Don't-care X cells may be treated as 0 when doing so helps create a larger group.
+-Remember : 
+-Minimization	Group	Don't-care
+-SOP	1s	Can be treated as 1
+-POS	0s	Can be treated as 0
 
 **Important Rules for Don't-Care Conditions**
-*Rule 1
+-Rule 1
 Don't-care cells do not have to be used.
-*Rule 2
+-Rule 2
 Use a don't-care only if it helps make a larger group or simplifies the expression.
-*Rule 3
+-Rule 3
 Don't-care cells can be used along with required 1s in SOP minimization.
-*Rule 4
+-Rule 4
 Don't-care cells can be used along with required 0s in POS minimization.
-*Rule 5
+-Rule 5
 Do not create unnecessary groups using don't-care cells.
-*Rule 6
+-Rule 6
 The final expression must correctly represent all required output conditions.
 
 **ADVANTAGES**
 
-*Simpler Boolean expressions
-*Larger K-Map groups
-*Fewer logic gates
-*Fewer gate inputs
-Reduced circuit complexity
+-Simpler Boolean expressions
+-Larger K-Map groups
+-Fewer logic gates
+-Fewer gate inputs
+-Reduced circuit complexity
 
