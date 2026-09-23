@@ -37,18 +37,14 @@ Implicant
 
 An implicant is a product term that covers one or more minterms for which the function is 1.
 
-Prime Implicant
-
+**Prime Implicant-**
 A prime implicant is an implicant that cannot be combined further to eliminate another variable.
 
-Essential Prime Implicant
-
+**Essential Prime Implicant-**
 An essential prime implicant is a prime implicant that covers at least one minterm that is not covered by any other prime implicant.
-
 Essential prime implicants must be selected in the final solution.
 
-4. Basic Steps of QM Method
-
+**Basic Steps of QM Method**
 The QM method generally follows these steps:
 
 Step 1 → Write the minterms
@@ -312,23 +308,16 @@ Find Prime Implicants
 Create chart using required minterms only
               ↓
 Select required Prime Implicants
-18. QM Method vs K-Map
-Feature	K-Map	QM / Tabular Method
-Type	Graphical	Tabular
-Method	Visual grouping	Systematic comparison
-Small functions	Very convenient	Can be lengthy
-Large functions	Becomes difficult	More systematic
-Computer implementation	Less direct	Suitable
-Prime implicants	Found through groups	Explicitly determined
-Main limitation	Difficult for many variables	Can involve many calculations
-19. Advantages of QM Method
+
+**Advantages of QM Method**
 Systematic procedure
 No K-Map drawing required
 Suitable for computer algorithms
 Can handle larger Boolean functions
 Clearly identifies prime implicants
 Can handle don't-care conditions
-20. Disadvantages of QM Method
+
+**Disadvantages of QM Method**
 Can become lengthy for many minterms
 More calculations are required
 Manual implementation can be time-consuming
