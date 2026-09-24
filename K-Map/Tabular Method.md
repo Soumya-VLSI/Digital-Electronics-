@@ -31,8 +31,8 @@ Example:
 ABC
 A'BC
 AB'C'
-Implicant
 
+**Implicant**
 An implicant is a product term that covers one or more minterms for which the function is 1.
 
 **Prime Implicant-**
@@ -64,28 +64,23 @@ Step 8 → Construct Prime Implicant Chart
 Step 9 → Select Essential Prime Implicants
         ↓
 Step 10 → Obtain minimized expression
-5. Step 1: Write the Minterms
 
+Step 1: Write the Minterms
 Consider:
-
 F(A,B,C) = Σm(1,3,5,7)
-
 The minterms are:
-
 m1, m3, m5, m7
-6. Step 2: Convert Minterms to Binary
 
+Step 2: Convert Minterms to Binary
 For 3 variables:
-
 Minterm	Binary
 m1	001
 m3	011
 m5	101
 m7	111
-7. Step 3: Group According to Number of 1s
 
+Step 3: Group According to Number of 1s
 Count the number of 1s in each binary representation.
-
 Group 0 — No 1s
 000
 Group 1 — One 1
@@ -106,17 +101,13 @@ Group	Minterm	Binary
 2	m3	011
 2	m5	101
 3	m7	111
-8. Step 4: Compare Adjacent Groups
 
+Step 4: Compare Adjacent Groups
 Only adjacent groups are compared.
-
 Two terms can be combined if they differ in exactly one bit.
-
 Example:
-
 001
 011
-
 Compare:
 
 0 0 1
@@ -124,64 +115,11 @@ Compare:
   ↑
 
 Only one bit differs.
-
 Therefore they can be combined:
-
 0-1
-
 The - means that the corresponding variable has been eliminated.
 
-9. Example of Combining
-
-Consider:
-
-001
-011
-
-They differ only in the second bit.
-
-Therefore:
-
-001
-011
----
-0-1
-
-Similarly:
-
-101
-111
----
-1-1
-10. Second Combination
-
-Now compare:
-
-0-1
-1-1
-
-They differ in only one fixed position:
-
-0 - 1
-1 - 1
-↑
-
-Therefore:
-
---1
-
-The final term corresponds to:
-
-C
-
-Therefore:
-
-F = C
-
-This agrees with:
-
-Σm(1,3,5,7) = C
-11. Meaning of the Dash (-)
+**Meaning of the Dash (-)**
 
 The dash represents a variable that has been eliminated.
 
@@ -202,7 +140,7 @@ A'C
 
 The variable B is eliminated.
 
-12. Combining Rule
+**Combining Rule**
 Two terms can be combined only when:
 They belong to adjacent groups.
 They differ in exactly one bit.
@@ -210,23 +148,21 @@ Their other bits are identical.
 Example
 001
 011
-
 Can combine:
-
 0-1
 Cannot combine
 001
 110
 
 because they differ in three positions.
+
 Prime Implicants
 After repeatedly combining terms, some terms cannot be combined any further.
 These are called: Prime Implicants (PIs)
 
-Important point
-Every term that cannot be combined further becomes a candidate prime implicant.
+**Important point**-Every term that cannot be combined further becomes a candidate prime implicant.
 
-Prime Implicant Chart
+**Prime Implicant Chart**
 After finding all prime implicants, we construct a Prime Implicant Chart.
 The chart shows:
 Rows → Prime implicants
@@ -265,22 +201,17 @@ P2 → Essential Prime Implicant
 **Don't-Care Conditions in QM Method**
 QM can also handle don't-care conditions.
 They are written as:
-
 F = Σm(1,3,7) + d(5,6)
-
 Here:
-
 1,3,7 → Required minterms
 5,6   → Don't-care minterms
+
 Important rule
-
 Don't-care terms can be used during the combination process to create larger groups.
-
 However, don't-care terms do not need to be covered in the final Prime Implicant Chart.
-
 Only the required minterms need to be covered.
 
-QM Method with Don't-Cares
+**QM Method with Don't-Cares**
 
 The procedure is:
 
@@ -297,15 +228,12 @@ Create chart using required minterms only
 Select required Prime Implicants
 
 **Advantages of QM Method**
-Systematic procedure
 No K-Map drawing required
-Suitable for computer algorithms
 Can handle larger Boolean functions
 Clearly identifies prime implicants
 Can handle don't-care conditions
 
 **Disadvantages of QM Method**
 Can become lengthy for many minterms
-More calculations are required
 Manual implementation can be time-consuming
 Prime Implicant Chart may become large
