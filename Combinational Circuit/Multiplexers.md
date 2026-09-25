@@ -80,107 +80,47 @@ A **2:1 MUX** has:
                 │
         S ──────┘
 
-Inputs:
+Inputs: I0, I1
+Select line: S
+Output: Y
 
-I0, I1
-```
+5. Truth Table of 2:1 MUX
 
-Select line:
-
-```text
-S
-```
-
-Output:
-
-```text
-Y
-```
-
----
-
-## 5. Truth Table of 2:1 MUX
-
-| S | Y  |
-| - | -- |
-| 0 | I0 |
-| 1 | I1 |
-
-### Working
+|  S  |  Y  |
+|  0  |  I0 |
+|  1  |  I1 |
 
 When:
-
-```text
 S = 0
-```
-
 the output is:
-
-```text
 Y = I0
-```
-
 When:
-
-```text
 S = 1
-```
-
 the output is:
-
-```text
 Y = I1
-```
-
 Therefore:
 
 > `S` decides which input reaches the output.
 
----
-
-# 6. Boolean Expression of 2:1 MUX
+6. Boolean Expression of 2:1 MUX
 
 The Boolean expression is:
-
-```text
 Y = S'I0 + SI1
-```
 
-### Understanding the expression
+Understanding the expression
 
 First term:
-
-```text
 S'I0
-```
-
 works when:
-
-```text
 S = 0
-```
-
 Second term:
-
-```text
 SI1
-```
-
 works when:
-
-```text
 S = 1
-```
-
 Therefore:
-
-```text
 Y = S'I0 + SI1
-```
 
----
-
-# 7. Logic Implementation of 2:1 MUX
+7. Logic Implementation of 2:1 MUX
 
 A 2:1 MUX can be implemented using:
 
