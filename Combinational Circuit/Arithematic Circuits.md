@@ -185,24 +185,19 @@ Number of Full Adders = n
 
 Example for 4-bit addition:
 
-```text
 A3 A2 A1 A0
 + B3 B2 B1 B0
 --------------
 C4 S3 S2 S1 S0
-```
 
 Four Full Adders are required.
 
----
-
-# 8. Ripple Carry Adder
+8. Ripple Carry Adder
 
 A **Ripple Carry Adder (RCA)** is a multi-bit binary adder constructed by connecting Full Adders in cascade.
 
 The carry output of one Full Adder becomes the carry input of the next Full Adder.
 
-```text
         C0
          │
          ▼
@@ -220,8 +215,7 @@ A1 ──►│ FA1 │──► C2
 B1 ──►│     │
       └──┬──┘
          │ S1
-          ...
-```
+
 
 ### Main disadvantage
 
@@ -229,45 +223,32 @@ The carry must propagate from one Full Adder to the next.
 
 Therefore, the propagation delay increases as the number of bits increases.
 
----
-
 # 9. Carry Look-Ahead Adder
 
 A **Carry Look-Ahead Adder (CLA)** is designed to reduce the carry propagation delay found in Ripple Carry Adders.
 
 Instead of waiting for the carry to ripple through each Full Adder, the CLA calculates carries using **Generate** and **Propagate** concepts.
 
-### Generate
-
 A carry is generated when:
 
-```text
 Gi = AiBi
-```
 
-### Propagate
+Propagate
 
 A common definition is:
-
-```text
 Pi = Ai ⊕ Bi
-```
 
 The carry equation is:
 
-```text
 Ci+1 = Gi + PiCi
-```
 
 Therefore, the carry can be calculated more quickly.
 
-### Main advantage
+Main advantage
 
 **Lower carry propagation delay compared with a Ripple Carry Adder.**
 
----
-
-# 10. Adder Comparison
+10. Adder Comparison
 
 | Circuit                | Inputs    | Main Purpose              |
 | ---------------------- | --------- | ------------------------- |
@@ -277,9 +258,7 @@ Therefore, the carry can be calculated more quickly.
 | Ripple Carry Adder     | Multi-bit | Simple multi-bit addition |
 | Carry Look-Ahead Adder | Multi-bit | Faster multi-bit addition |
 
----
-
-# 11. Adder vs Subtractor
+11. Adder vs Subtractor
 
 | Feature       | Adder           | Subtractor           |
 | ------------- | --------------- | -------------------- |
@@ -287,7 +266,6 @@ Therefore, the carry can be calculated more quickly.
 | Output        | Sum, Carry      | Difference, Borrow   |
 | Basic circuit | Half/Full Adder | Half/Full Subtractor |
 | Carry         | Used            | Borrow is used       |
-
 
 **APPLICATIONS**
 Arithmetic circuits are used in:
