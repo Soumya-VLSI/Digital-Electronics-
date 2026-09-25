@@ -61,47 +61,29 @@ A Half Adder does **not** have a Carry-in input.
 
 Therefore, it cannot directly add three bits.
 
----
-
-# 4. Full Adder
+4. Full Adder
 
 A **Full Adder** is a combinational circuit that adds three 1-bit inputs.
 
-### Inputs
-
-```text
+Inputs
 A
 B
 Cin → Carry-in
-```
 
-### Outputs
-
-```text
+Outputs
 Sum
 Cout → Carry-out
-```
 
-### Boolean Expressions
-
-```text
+Boolean Expressions
 Sum = A ⊕ B ⊕ Cin
-```
-
-```text
 Cout = AB + BCin + ACin
-```
 
 Another commonly used form:
-
-```text
 Cout = AB + Cin(A ⊕ B)
-```
 
-### Truth Table
+Truth Table
 
 | A | B | Cin | Sum | Cout |
-| - | - | --- | --- | ---- |
 | 0 | 0 | 0   | 0   | 0    |
 | 0 | 0 | 1   | 1   | 0    |
 | 0 | 1 | 0   | 1   | 0    |
@@ -111,45 +93,26 @@ Cout = AB + Cin(A ⊕ B)
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
-### Important Point
+Important Point
 
 A Full Adder can be constructed using:
-
-```text
 2 Half Adders + 1 OR Gate
-```
 
----
-
-# 5. Half Subtractor
-
+5. Half Subtractor
 A **Half Subtractor** performs subtraction of two 1-bit binary numbers.
 
-### Inputs
-
-```text
+Inputs
 A → Minuend
 B → Subtrahend
-```
-
-### Outputs
-
-```text
+Outputs
 Difference (D)
 Borrow (Bout)
-```
 
-### Boolean Expressions
-
-```text
+Boolean Expressions
 D = A ⊕ B
-```
-
-```text
 Bout = A'B
-```
 
-### Truth Table
+Truth Table
 
 | A | B | Difference | Borrow |
 | - | - | ---------- | ------ |
