@@ -47,39 +47,25 @@ A MUX consists of:
 
 For a MUX having `n` select lines:
 
-### Number of inputs
-
-```text
 Number of inputs = 2^n
-```
-
-### Number of outputs
-
-```text
 Number of outputs = 1
-```
 
-### Examples
+Examples
 
 | Select Lines | Data Inputs | Output |
-| -----------: | ----------: | -----: |
-|            1 |           2 |      1 |
-|            2 |           4 |      1 |
-|            3 |           8 |      1 |
-|            4 |          16 |      1 |
+|       1      |      2      |    1   |
+|       2      |      4      |    1   |
+|       3      |      8      |    1   |
+|       4      |     16      |    1   |
 
 Therefore:
 
-```text
 2:1 MUX → 1 select line
 4:1 MUX → 2 select lines
 8:1 MUX → 3 select lines
 16:1 MUX → 4 select lines
-```
 
----
-
-# 4. 2:1 Multiplexer
+4. 2:1 Multiplexer
 
 A **2:1 MUX** has:
 
@@ -87,18 +73,15 @@ A **2:1 MUX** has:
 * 1 select line
 * 1 output
 
-```text
         I0 ─────┐
                 │
                 │
         I1 ─────┤──► MUX ───► Y
                 │
         S ──────┘
-```
 
 Inputs:
 
-```text
 I0, I1
 ```
 
