@@ -14,13 +14,10 @@ They are important building blocks of digital systems such as:
 
 Since arithmetic circuits are **combinational circuits**, their outputs depend only on the **present input values**.
 
----
-
-# 2. Types of Arithmetic Circuits
+**Types of Arithmetic Circuits**
 
 The important arithmetic circuits are:
 
-```text
 Arithmetic Circuits
         │
         ├── Adders
@@ -33,52 +30,32 @@ Arithmetic Circuits
         └── Subtractors
             ├── Half Subtractor
             └── Full Subtractor
-```
 
----
-
-# 3. Half Adder
+**HALF ADDER**
 
 A **Half Adder** is a combinational circuit that adds two 1-bit binary numbers.
 
-### Inputs
+Inputs- A, B
+Outputs- Sum (S)
+       - Carry (C)
 
-```text
-A, B
-```
-
-### Outputs
-
-```text
-Sum (S)
-Carry (C)
-```
-
-### Boolean Expressions
-
-```text
+Boolean Expressions
 S = A ⊕ B
-
 C = A · B
-```
 
-### Truth Table
+Truth Table
 
-| A | B | Sum | Carry |
-| - | - | --- | ----- |
-| 0 | 0 | 0   | 0     |
-| 0 | 1 | 1   | 0     |
-| 1 | 0 | 1   | 0     |
-| 1 | 1 | 0   | 1     |
+|  A  |  B  |  Sum  |  Carry  |
+|  0  |  0  |   0   |   0     |
+|  0  |  1  |   1   |   0     |
+|  1  |  0  |   1   |   0     |
+|  1  |  1  |   0   |   1     |
 
-### Logic Implementation
-
-```text
+Logic Implementation
 Sum   → XOR gate
 Carry → AND gate
-```
 
-### Limitation
+Limitation
 
 A Half Adder does **not** have a Carry-in input.
 
