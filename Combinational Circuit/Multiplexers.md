@@ -1,6 +1,6 @@
 **MULTIPLEXERS (MUX)**
 
-1. Introduction
+**1. INTRODUCTION**
 
 A **Multiplexer (MUX)** is a **combinational circuit** that selects **one input from multiple input lines** and sends the selected input to a **single output line**.
 
@@ -20,7 +20,7 @@ Basic concept-
        Select Lines
 The select lines determine which input is connected to the output.
 
-2. Why is MUX called a Data Selector?
+**2. WHY IS MUX CALLED A DATA SELECTOR ?**
 
 Suppose a MUX has four inputs:
 I0
@@ -37,7 +37,7 @@ means:
 Y = I2
 Therefore, the MUX **selects one data input and forwards it to the output**.
 
-3. Basic Structure of a MUX
+**3. BASIC STRUCTURE OF A  MUX**
 
 A MUX consists of:
 
@@ -65,7 +65,7 @@ Therefore:
 8:1 MUX → 3 select lines
 16:1 MUX → 4 select lines
 
-4. 2:1 Multiplexer
+**4. 2:1 MULTIPLEXER**
 
 A **2:1 MUX** has:
 
@@ -84,7 +84,7 @@ Inputs: I0, I1
 Select line: S
 Output: Y
 
-5. Truth Table of 2:1 MUX
+**5. TRUTH TABLE OF 2:1 MUX**
 
 |  S  |  Y  |
 |  0  |  I0 |
@@ -102,7 +102,7 @@ Therefore:
 
 > `S` decides which input reaches the output.
 
-6. Boolean Expression of 2:1 MUX
+**6. BOOLEAN EXPRESSION OF 2:1 MUX**
 
 The Boolean expression is:
 Y = S'I0 + SI1
@@ -120,7 +120,7 @@ S = 1
 Therefore:
 Y = S'I0 + SI1
 
-7. Logic Implementation of 2:1 MUX
+**7. LOGIC IMPLEMENTSTION OF 2:1 MUX**
 
 A 2:1 MUX can be implemented using:
 
@@ -140,7 +140,7 @@ I1 ───────── AND ──────┤── OR ──► Y
 The output equation is:
 Y = S'I0 + SI1
 
-8. 4:1 Multiplexer
+**8. 4:1 MULTIPLEXER**
 
 A **4:1 MUX** has:
 
@@ -164,7 +164,7 @@ Basic representation:
          │
  S1,S0 ──┘
 
-9. Truth Table of 4:1 MUX
+**9. TRUTH TABLE OF 4:1 MUX**
 
 |  S1  |  S0  | Output |
 |  0   |   0  |   I0   |
@@ -178,7 +178,7 @@ S1 S0 = 01 → Y = I1
 S1 S0 = 10 → Y = I2
 S1 S0 = 11 → Y = I3
 
-10. Boolean Expression of 4:1 MUX
+**10. BOOLEAN EXPRESSION OF 4:1 MUX**
 
 The Boolean expression is:
 
@@ -196,7 +196,7 @@ Each input has a corresponding **select-line combination**.
 |       S1S0         |      I3        |
 
 
-11. 8:1 Multiplexer
+**11. 8:1 MULTIPLEXER**
 
 An **8:1 MUX** has:
 
@@ -213,7 +213,7 @@ S2, S1, S0
 Output:
 Y
 
-12. Truth Table of 8:1 MUX
+**12. TRUTH TABLE OF 8:1 MUX**
  
 S2	S1	S0	Output
 0	0	0	I0
@@ -236,7 +236,7 @@ Therefore:
 110 → I6
 111 → I7
 
-13. Boolean Expression of 8:1 MUX
+**13. BOOLEAN EXPRESSION OF 8:1 MUX
 
 The output can be written as:
 Y = S2'S1'S0'I0
@@ -248,7 +248,7 @@ Y = S2'S1'S0'I0
   + S2S1S0'I6
   + S2S1S0I7
 
-14. 16:1 Multiplexer
+**14. 16:1 MULTIPLEXER**
 A 16:1 MUX has:
 16 data inputs
 4 select lines
