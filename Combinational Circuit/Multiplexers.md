@@ -127,8 +127,6 @@ A 2:1 MUX can be implemented using:
 * 1 NOT gate
 * 2 AND gates
 * 1 OR gate
-
-```text
              ┌── NOT ──┐
              │         │
              S         S'
@@ -138,18 +136,11 @@ I0 ───────── AND ──────┐
 I1 ───────── AND ──────┤── OR ──► Y
              │         │
              S         │
-                       │
-```
 
 The output equation is:
-
-```text
 Y = S'I0 + SI1
-```
 
----
-
-# 8. 4:1 Multiplexer
+8. 4:1 Multiplexer
 
 A **4:1 MUX** has:
 
@@ -158,79 +149,54 @@ A **4:1 MUX** has:
 * 1 output
 
 Inputs:
-
-```text
 I0, I1, I2, I3
-```
-
 Select lines:
-
-```text
 S1, S0
-```
-
 Output:
-
-```text
 Y
-```
 
 Basic representation:
 
-```text
  I0 ─────┐
  I1 ─────┤
  I2 ─────┤──► 4:1 MUX ───► Y
  I3 ─────┤
          │
  S1,S0 ──┘
-```
 
----
+9. Truth Table of 4:1 MUX
 
-# 9. Truth Table of 4:1 MUX
+|  S1  |  S0  | Output |
+|  0   |   0  |   I0   |
+|  0   |   1  |   I1   |
+|  1   |   0  |   I2   |
+|  1   |   1  |   I3   |
 
-| S1 | S0 | Output |
-| -- | -- | ------ |
-| 0  | 0  | I0     |
-| 0  | 1  | I1     |
-| 1  | 0  | I2     |
-| 1  | 1  | I3     |
-
-### Selection
-
-```text
+Selection
 S1 S0 = 00 → Y = I0
 S1 S0 = 01 → Y = I1
 S1 S0 = 10 → Y = I2
 S1 S0 = 11 → Y = I3
-```
 
----
-
-# 10. Boolean Expression of 4:1 MUX
+10. Boolean Expression of 4:1 MUX
 
 The Boolean expression is:
 
-```text
 Y = S1'S0'I0
   + S1'S0I1
   + S1S0'I2
   + S1S0I3
-```
 
 Each input has a corresponding **select-line combination**.
 
 | Select Combination | Selected Input |
-| ------------------ | -------------- |
-| S1'S0'             | I0             |
-| S1'S0              | I1             |
-| S1S0'              | I2             |
-| S1S0               | I3             |
+|       S1'S0'       |      I0        |
+|       S1'S0        |      I1        |
+|       S1S0'        |      I2        |
+|       S1S0         |      I3        |
 
----
 
-# 11. 8:1 Multiplexer
+11. 8:1 Multiplexer
 
 An **8:1 MUX** has:
 
@@ -239,26 +205,15 @@ An **8:1 MUX** has:
 * 1 output
 
 Inputs:
-
-```text
 I0, I1, I2, I3, I4, I5, I6, I7
-```
 
 Select lines:
-
-```text
 S2, S1, S0
-```
 
 Output:
-
-```text
 Y
-```
 
----
-
-## 12. Truth Table of 8:1 MUX
+12. Truth Table of 8:1 MUX
 
 |
 
