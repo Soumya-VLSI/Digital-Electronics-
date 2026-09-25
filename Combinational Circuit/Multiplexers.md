@@ -1,6 +1,6 @@
-# Multiplexers (MUX)
+**MULTIPLEXERS (MUX)**
 
-## 1. Introduction
+1. Introduction
 
 A **Multiplexer (MUX)** is a **combinational circuit** that selects **one input from multiple input lines** and sends the selected input to a **single output line**.
 
@@ -10,9 +10,7 @@ A multiplexer is also called a:
 
 The selection of the input is controlled by **Select Lines**.
 
-### Basic concept
-
-```text
+Basic concept-
        I0 ─────┐
        I1 ─────┤
        I2 ─────┤──► MUX ───► Y
@@ -20,48 +18,26 @@ The selection of the input is controlled by **Select Lines**.
                │
        S1,S0 ──┘
        Select Lines
-```
-
 The select lines determine which input is connected to the output.
 
----
-
-# 2. Why is MUX called a Data Selector?
+2. Why is MUX called a Data Selector?
 
 Suppose a MUX has four inputs:
-
-```text
 I0
 I1
 I2
 I3
-```
-
 and one output:
-
-```text
 Y
-```
-
 Only **one input** is selected at a time.
 
 For example:
-
-```text
 S1 S0 = 10
-```
-
 means:
-
-```text
 Y = I2
-```
-
 Therefore, the MUX **selects one data input and forwards it to the output**.
 
----
-
-# 3. Basic Structure of a MUX
+3. Basic Structure of a MUX
 
 A MUX consists of:
 
